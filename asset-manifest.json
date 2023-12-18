@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/rpi/static/css/main.cf751305.css",
-    "main.js": "/rpi/static/js/main.407408e3.js",
+    "main.js": "/rpi/static/js/main.b4ce2541.js",
     "static/js/787.d4aba7ab.chunk.js": "/rpi/static/js/787.d4aba7ab.chunk.js",
     "index.html": "/rpi/index.html",
     "static/media/getFetch.cjs": "/rpi/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.cf751305.css.map": "/rpi/static/css/main.cf751305.css.map",
-    "main.407408e3.js.map": "/rpi/static/js/main.407408e3.js.map",
+    "main.b4ce2541.js.map": "/rpi/static/js/main.b4ce2541.js.map",
     "787.d4aba7ab.chunk.js.map": "/rpi/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf751305.css",
-    "static/js/main.407408e3.js"
+    "static/js/main.b4ce2541.js"
   ]
 }
