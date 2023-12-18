@@ -1,7 +1,13 @@
-import { Avatar, Box, Button, Card, CardActions, CardContent, CardMedia, Container, Grid, Typography } from "@mui/material";
+import { Avatar, Box, Button, Card, CardActions, CardContent, CardMedia, Container, Grid, ThemeProvider, Typography, createTheme } from "@mui/material";
 import React from 'react';
 import Header from './../header/Header'
 import { useTranslation } from "react-i18next";
+
+const theme = createTheme();
+
+theme.typography.h1 = {
+    fontSize: '3rem',
+};
 
 const Home = (props) => {
     const { heroData } = props;
@@ -11,6 +17,7 @@ const Home = (props) => {
     const pos = today.getDate() % heroData.length;
     const hero = heroData.at(pos);
     const createTypography = (text, variant) => (
+
         <Typography
             component={variant}
             variant={variant}
@@ -26,12 +33,16 @@ const Home = (props) => {
             <Header />
             <Container
                 sx={{
+
                     bgcolor: '#e3dfdf',
                     p: 5
                 }}
             >
-                {createTypography("portalTitle", "h1")}
-                {createTypography("portalDesription", "h5")}
+                <ThemeProvider theme={theme}>
+                    {createTypography("portalTitle", "h1")}
+                </ThemeProvider>
+
+                {createTypography("portalDesription", "h6")}
             </Container>
             <Container maxWidth="lg"
                 sx={{
@@ -39,7 +50,7 @@ const Home = (props) => {
                     p: 5
                 }}
             >
-                {createTypography("heroOfTheDay", "h3")}
+                {createTypography("heroOfTheDay", "h4")}
                 <Card
                     sx={{ display: 'flex', flexDirection: 'row', mt: 5 }} >
                     <Box sx={{ width: 500, padding: 3 }} alignSelf="center" >
@@ -70,8 +81,8 @@ const Home = (props) => {
                     p: 5
                 }}
             >
-                {createTypography("devsTitle", "h3")}
-                <Grid container direction="row" justifyContent="space-around" spacing={4} sx={{ pt: 10 }}>
+                {createTypography("devsTitle", "h4")}
+                <Grid container direction="row" justifyContent="space-around" spacing={4} sx={{ pt: 5 }}>
                     <DeveloperCard name="KirillStolbov" avatarSrc="116667638?v=4" />
                     <DeveloperCard name="afanofrafa" avatarSrc="146372888?s=400&v=4" />
                     <DeveloperCard name="KopVZakone" avatarSrc="109739214?v=4" />
