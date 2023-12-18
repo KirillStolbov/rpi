@@ -54,7 +54,7 @@ const Home = (props) => {
                 <Card
                     sx={{ display: 'flex', flexDirection: 'row', mt: 5 }} >
                     <Box sx={{ width: 500, padding: 3 }} alignSelf="center" >
-                        <CardMedia component="img" image={hero.photo.src} />
+                        <CardMedia component="img" image={hero.photo.src} alt={hero.photo.alt} />
                     </Box>
                     <Box>
                         <CardContent>

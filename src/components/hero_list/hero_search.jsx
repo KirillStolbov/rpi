@@ -1,18 +1,24 @@
-import { Box, Typography, Grid, CardMedia, CardContent, CardActions, Container, Button, Card } from "@mui/material";
+import { Box, Typography, Grid, CardMedia, CardContent, CardActions, Container, Button, Card, createTheme } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import Header from "../header/Header";
+
+const theme = createTheme();
+
+theme.typography.h1 = {
+    fontSize: '3rem',
+};
 
 const HeroSearch = (props) => {
 
     const { heroData } = props;
-    const { t, i18n} = useTranslation();
+    const { t, i18n } = useTranslation();
     const lang = i18n.language;
     return (
         <main>
-            <Header/>
+            <Header />
             <Container
                 sx={{
-                    bgcolor:'grey.300',
+                    bgcolor: 'grey.300',
                     pt: 8,
                     pb: 6,
                 }}
@@ -32,10 +38,10 @@ const HeroSearch = (props) => {
                     </Typography>
                 </Container>
             </Container>
-            <Container 
-                sx={{ 
-                    py: 8, 
-                    bgcolor:'grey.300',
+            <Container
+                sx={{
+                    py: 8,
+                    bgcolor: 'grey.300',
                 }}
             >
                 <Grid container spacing={4}>
@@ -51,6 +57,7 @@ const HeroSearch = (props) => {
                                         pt: '56.25%',
                                     }}
                                     image={hero.photo.src}
+                                    alt={hero.photo.alt}
                                 />
                                 <CardContent sx={{ flexGrow: 1 }}>
                                     <Typography gutterBottom variant="h5" component="h2">
