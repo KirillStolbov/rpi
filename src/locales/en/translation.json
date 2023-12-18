@@ -1,0 +1,27 @@
+{
+    "home" : {
+        "portalTitle":"Suicide Squad: Universal Archive",
+        "portalDesription":"Welcome to \"Suicide Squad: Universal Archive\" — the place where every corner of the \"Suicide Squad\" universe becomes open for your exploration. Immerse yourself in the captivating stories of the heroes who have earned their place in this unique archive.",
+        "heroOfTheDay":"Hero of the day",
+        "seeMoreButton":"See more",
+        "devsTitle":"Our Developers"
+    },
+    "search" : {
+        "listTitle":"List of heroes",
+        "listDescription":"Choose a hero according to your taste",
+        "seeMoreButton":"See more"
+    },
+    "header" : {
+        "mainPage":"Main Page",
+        "search":"List of heroes"
+    },
+    "error" : {
+        "pageNotFound":"Page not found"
+    },
+    "hero" : {
+        "biography":"Biography",
+        "chronography":"Chronography",
+        "gallery":"Gallery",
+        "map":"Current location"
+    }
+}
