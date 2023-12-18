@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/rpi/static/css/main.c3be844f.css",
-    "main.js": "/rpi/static/js/main.f7e0fe9f.js",
+    "main.css": "/rpi/static/css/main.7ebf06a2.css",
+    "main.js": "/rpi/static/js/main.1b5646a5.js",
     "static/js/787.d4aba7ab.chunk.js": "/rpi/static/js/787.d4aba7ab.chunk.js",
-    "static/media/fon1.png": "/rpi/static/media/fon1.09818d9774ba7c15f583.png",
     "index.html": "/rpi/index.html",
     "static/media/getFetch.cjs": "/rpi/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.c3be844f.css.map": "/rpi/static/css/main.c3be844f.css.map",
-    "main.f7e0fe9f.js.map": "/rpi/static/js/main.f7e0fe9f.js.map",
+    "main.7ebf06a2.css.map": "/rpi/static/css/main.7ebf06a2.css.map",
+    "main.1b5646a5.js.map": "/rpi/static/js/main.1b5646a5.js.map",
     "787.d4aba7ab.chunk.js.map": "/rpi/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3be844f.css",
-    "static/js/main.f7e0fe9f.js"
+    "static/css/main.7ebf06a2.css",
+    "static/js/main.1b5646a5.js"
   ]
 }

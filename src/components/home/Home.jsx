@@ -72,9 +72,9 @@ const Home = (props) => {
             >
                 {createTypography("devsTitle", "h3")}
                 <Grid container direction="row" justifyContent="space-around" spacing={4} sx={{ pt: 10 }}>
-                    <DeveloperCard name="KirillStolbov" avatarSrc="icons/logo3.png" />
-                    <DeveloperCard name="1Arsen1" avatarSrc="icons/logo2.png" />
-                    <DeveloperCard name="KopVZakone" avatarSrc="icons/logo1.png" />
+                    <DeveloperCard name="KirillStolbov" avatarSrc="116667638?v=4" />
+                    <DeveloperCard name="afanofrafa" avatarSrc="146372888?s=400&v=4" />
+                    <DeveloperCard name="KopVZakone" avatarSrc="109739214?v=4" />
                 </Grid>
             </Container>
         </main>
@@ -100,7 +100,7 @@ const DeveloperCard = ({ name, avatarSrc }) => {
             <Card sm={6} md={4} square>
                 <CardMedia sx={centerStyles}>
                     <a {...generateLinkProps(githubLink)}>
-                        <Avatar alt="logo" src={avatarSrc} sx={{ width: 100, height: 100 }} />
+                        <Avatar alt="logo" src={"https://avatars.githubusercontent.com/u/" + avatarSrc} sx={{ width: 100, height: 100 }} />
                     </a>
                 </CardMedia>
                 <CardContent sx={centerStyles}>
